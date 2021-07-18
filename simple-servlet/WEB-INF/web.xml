@@ -1,0 +1,22 @@
+<web-app>
+
+<servlet>
+    <servlet-name>homePage</servlet-name>
+    <jsp-file>/index.html</jsp-file>
+</servlet>
+<servlet-mapping>
+    <servlet-name>homePage</servlet-name>
+    <url-pattern>/</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>imranServlet</servlet-name>
+<servlet-class>SimpleServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>imranServlet</servlet-name>
+<url-pattern>/user-info</url-pattern>
+</servlet-mapping>
+
+</web-app>
