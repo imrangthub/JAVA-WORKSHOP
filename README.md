@@ -18,3 +18,19 @@
 # Compile java file
 
           javac -classpath "C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\servlet-api.jar" SimpleServlet.java
+          
+# web.xml
+
+            <web-app>
+
+            <servlet>
+            <servlet-name>imranServlet</servlet-name>
+            <servlet-class>SimpleServlet</servlet-class>
+            </servlet>
+            
+            <servlet-mapping>
+            <servlet-name>imranServlet</servlet-name>
+            <url-pattern>/user-info</url-pattern>
+            </servlet-mapping>
+
+            </web-app>
