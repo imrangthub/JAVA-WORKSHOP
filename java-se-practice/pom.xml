@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.imranmabar</groupId>
+  <artifactId>java-se-practice</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>java-se-practice</name>
+  <description>Java SE Practice</description>
+  
+  <dependencies>
+    <dependency>
+    <groupId>com.github.javadev</groupId>
+    <artifactId>underscore</artifactId>
+    <version>1.76</version>
+  </dependency>
+  </dependencies>
+
+  
+  
+</project>
