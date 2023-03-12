@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  hello-world-java-maven-web-spring-boot:
+    depends_on:
+      - mysqlschema
+    image: imranmadbar/hello-world-java-maven-web-spring-boot
+    container_name: SpringBootWebApp
+    ports:
+      - "8080:8080"
+    networks:
+      - spring-app-net
+networks:
+  spring-app-net:
+    name: spring-app-net
+    driver: bridge
